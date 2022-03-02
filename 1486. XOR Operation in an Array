@@ -1,0 +1,11 @@
+https://leetcode.com/problems/xor-operation-in-an-array/
+
+class Solution:
+    def xorOperation(self, n: int, start: int) -> int:
+        nums = []
+        for i in range(0,n):
+            nums.append(start+2*i)
+        ans = 0
+        for i in nums:
+            ans=ans ^ i
+        return ans
