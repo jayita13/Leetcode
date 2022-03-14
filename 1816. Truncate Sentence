@@ -1,0 +1,11 @@
+https://leetcode.com/problems/truncate-sentence/
+
+def truncateSentence(self, s: str, k: int) -> str:
+        s1 = s.split()
+        s2 = []
+        for i in range(len(s1)):
+            if i == k:
+                break
+            else:
+                s2.append(s1[i])
+        return " ".join(s2)
