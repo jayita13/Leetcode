@@ -1,5 +1,4 @@
-https://leetcode.com/problems/goal-parser-interpretation/
-
+# https://leetcode.com/problems/goal-parser-interpretation/
 
 def interpret(self, command: str) -> str:
         res = []
@@ -12,3 +11,6 @@ def interpret(self, command: str) -> str:
             if command[i] == 'a' and command[i+1]=='l':
                 res.append('al')
         return ''.join(res)
+
+# Runtime: 42 ms
+# Memory Usage: 13.9 MB
