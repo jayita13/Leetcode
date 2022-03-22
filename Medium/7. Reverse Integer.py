@@ -1,4 +1,4 @@
-https://leetcode.com/problems/reverse-integer/
+# https://leetcode.com/problems/reverse-integer/
 
 class Solution:
     def reverse(self, x: int) -> int:
@@ -15,4 +15,5 @@ class Solution:
         else:
             return 0
     
-        
+# Runtime: 32 ms
+# Memory Usage: 13.9 MB        
