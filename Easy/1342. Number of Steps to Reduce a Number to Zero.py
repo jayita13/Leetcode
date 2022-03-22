@@ -1,4 +1,4 @@
-#https://leetcode.com/problems/number-of-steps-to-reduce-a-number-to-zero/
+# https://leetcode.com/problems/number-of-steps-to-reduce-a-number-to-zero/
 
 
 def numberOfSteps(self, num: int) -> int:
@@ -10,3 +10,6 @@ def numberOfSteps(self, num: int) -> int:
                 num = num - 1
             c = c + 1
         return c
+
+# Runtime: 37 ms, faster than 68.11% of Python3 online submissions for Number of Steps to Reduce a Number to Zero.
+# Memory Usage: 13.9 MB, less than 20.00% of Python3 online submissions for Number of Steps to Reduce a Number to Zero.
