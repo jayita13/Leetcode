@@ -1,4 +1,4 @@
-https://leetcode.com/problems/design-parking-system/
+# https://leetcode.com/problems/design-parking-system/
 
 class ParkingSystem:
 
@@ -23,3 +23,6 @@ class ParkingSystem:
 # Your ParkingSystem object will be instantiated and called as such:
 # obj = ParkingSystem(big, medium, small)
 # param_1 = obj.addCar(carType)
+
+# Runtime: 239 ms, faster than 20.36% of Python3 online submissions for Design Parking System.
+# Memory Usage: 14.4 MB, less than 68.60% of Python3 online submissions for Design Parking System.
