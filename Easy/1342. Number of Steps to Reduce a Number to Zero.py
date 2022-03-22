@@ -1,6 +1,5 @@
 # https://leetcode.com/problems/number-of-steps-to-reduce-a-number-to-zero/
 
-
 def numberOfSteps(self, num: int) -> int:
         c = 0
         while num>0:
