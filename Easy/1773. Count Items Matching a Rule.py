@@ -1,4 +1,4 @@
-https://leetcode.com/problems/count-items-matching-a-rule/
+# https://leetcode.com/problems/count-items-matching-a-rule/
 
 class Solution:
     def countMatches(self, items: List[List[str]], ruleKey: str, ruleValue: str) -> int:
@@ -11,3 +11,6 @@ class Solution:
             elif ruleKey == "name" and ruleValue == items[i][2]:
                 c+=1
         return c
+
+# Runtime: 396 ms
+# Memory Usage: 20.3 MB
