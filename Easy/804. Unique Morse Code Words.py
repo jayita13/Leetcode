@@ -32,7 +32,6 @@ class Solution:
         for word in words:
             s=""
             for letter in word:
-                # if letter in code.keys():
                 s+=code.get(letter)
             res.append(s)   
             
