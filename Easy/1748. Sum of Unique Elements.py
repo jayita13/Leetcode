@@ -4,7 +4,9 @@ def sumOfUnique(self, nums: List[int]) -> int:
         counts = dict()        
         for i in nums:
             counts[i] = counts.get(i, 0) + 1
-        for i,j in counts.copy().items():       // create copy to avoid Runtime error of dictionary changed size during iteration
+        
+        # create copy to avoid Runtime error of dictionary changed size during iteration
+        for i,j in counts.copy().items():       
             if j > 1:
                 del counts[i]
         return sum(counts.keys())
