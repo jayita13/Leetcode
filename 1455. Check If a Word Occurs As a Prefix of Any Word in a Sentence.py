@@ -11,7 +11,13 @@ class Solution:
                 break
             else:
                 s = -1
+#             if sent.startswith(searchWord):
+#                 s = new_sent.index(sent) + 1
+#                 break
+#             else:
+#                 s = -1
         return s
+        
 
 ''' Runtime: 31 ms
 Memory Usage: 13.9 MB '''
