@@ -6,7 +6,9 @@ class Solution:
         for i in patterns:
             if i in word:
                 c+=1
-                
+#             find() returns index of match, if no match found it returns -1, index() returns error if match not found
+#             if word.find(i)>-1: 
+#                 c+=1   
         return c
 
 ''' Runtime: 42 ms, faster than 72.42% of Python3 online submissions for Number of Strings That Appear as Substrings in Word.
