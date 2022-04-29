@@ -22,4 +22,6 @@ class Solution:
         else:
             return False
                         
-      
+        # using regex
+        # return re.fullmatch(r'a*b*', s)
+
