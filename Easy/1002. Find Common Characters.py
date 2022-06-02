@@ -13,4 +13,5 @@ class Solution:
         return seen
         
 ''' Runtime: 53 ms, faster than 83.76% of Python3 online submissions for Find Common Characters.
-Memory Usage: 13.9 MB, less than 96.19% of Python3 online submissions for Find Common Characters. '''        
+Memory Usage: 13.9 MB, less than 96.19% of Python3 online submissions for Find Common Characters. '''      
+
