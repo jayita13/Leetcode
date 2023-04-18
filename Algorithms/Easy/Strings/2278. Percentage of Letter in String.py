@@ -11,6 +11,10 @@ class Solution:
             if letter == i:
                 c+=1
         return math.floor(c/len(s) * 100)
+        
+        # return int(s.count(letter)/len(s) * 100)
 
 ''' Runtime: 52 ms, faster than 37.26% of Python3 online submissions for Percentage of Letter in String.
 Memory Usage: 13.8 MB, less than 97.26% of Python3 online submissions for Percentage of Letter in String. '''
+
+""" Runtime 31 ms Beats 63.92% Memory 13.8 MB Beats 41.26% """
