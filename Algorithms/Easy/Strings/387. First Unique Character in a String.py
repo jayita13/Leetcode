@@ -9,5 +9,13 @@ class Solution:
                 break
                 
         return f
-        
+
+        # alt sol
+        # ans = -1
+        # for i,j in enumerate(s):
+        #     if j not in s[i+1:] and j not in s[:i]:
+        #         ans = i
+        #         break
+        # return ans
+
         
